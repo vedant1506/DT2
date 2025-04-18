@@ -1,0 +1,33 @@
+.transfer-input-container {
+    position: relative;
+    width: 100%;
+}
+
+.transfer-input-container:hover .suggestions-container {
+    display: block !important;
+}
+
+.suggestions-container {
+    position: absolute;
+    width: 100%;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.suggestion-item {
+    padding: 10px 15px;
+    cursor: pointer;
+    background: white;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+}
+
+.suggestion-item:hover {
+    background: #f0f0f0;
+}
+
+.suggestion-item:last-child {
+    border-bottom: none;
+}
